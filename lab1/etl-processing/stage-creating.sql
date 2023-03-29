@@ -1,7 +1,7 @@
-drop database if exists stage_zone;
-create database stage_zone;
+DROP DATABASE IF EXISTS stage_zone;
+CREATE DATABASE stage_zone;
 
-use stage_zone;
+USE stage_zone;
 
 DROP TABLE IF EXISTS suicide_by_age;
 CREATE TABLE suicide_by_age
